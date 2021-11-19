@@ -1,186 +1,276 @@
 *{
     box-sizing: border-box;
+
 }
 
 body{
+
     margin: 0;
+}
+
+.parent{
+   
 
 }
+
+
 .container{
-        background-image: url(./beachshowcase.jpg);
-        width: 100%;
+  background-image: url(./eb77a136-5ca9-4231-994d-8d5dc96b0ccb.jpg) ;
 
 }
 
+.hero{
+    width: 100%;
 
-
-.hold{
-font-size: 55px;
-line-height: 60px;
+    margin: 0 auto;
 
 }
-
-
 
 .contain{
     text-align: center;
-    font-size: 20px;
-    line-height: 34px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-    color: darksalmon;
-
-
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0,0.7);
+    
 
 }
 
 button{
-padding: 9px;
+    font-size: 14px;
+    padding: 5px;
+    background-color: black;
+    color: white;
     text-transform: uppercase;
-    border-radius: 10%;
-
 }
-
 button:hover{
-    background-color: wheat;
+    background-color: grey;
+}
+
+
+
+
+.blur{
+    background-color: dimgrey;
+    /* padding: 10px; */
 
 
 }
-
-.new-head{
-    background-color: darksalmon;
-
-}
-
-.head{
+.blur_new{
     text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    line-height: 28px;
-
-
-}
-
-
-.tail{
-text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    line-height: 28px;
+padding: 10px;
+    line-height: 32px;
+    color: cornsilk;
 
 }
 
 
 
+/* .head{
+    text-align: center;
+    color: blanchedalmond;
+
+} */
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section{
+    width: 100%;
+    
+}
 
 
 
-
-
-
-
-
-
-
+.new{
+    background-color: gold;
+    
   
+    
+}
+
+img{
+    width: 100%;
+
+}
+
+
+.problem{
+    padding: 10px;
+    
+}
+
+.mini{
+   
+    
+}
 
 
 .row{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.cols{
-    font-size: 15px;
-    padding: 5px;
-    line-height: 19px;
+     flex-direction: column; 
+     line-height: 32px;
+     padding-bottom: 20px;
 
 }
 
 .col{
-    width: 100%;
-    background-color: darksalmon;
-    color: white;
-
-
+    width: 90%;
+    margin: 0 auto;
+   margin-top: 20px;
+    background-color: white;
 }
 
 
 
+
+
+
+
+.last{
+    text-align: center;
+    padding: 55px;
+    font-size: 20px;
+
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.colun{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+
+
+.colum{
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.page{
+    display: flex;
+
+    
+}
+
+.age{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 11px;
+}
 
 
 
 @media screen and (min-width:600px){
 
-
-.hold{
-    font-size: 49px;
-}
+    .contain{
+        text-align: center;
+        padding: 100px;
+        color: white;
+        font-size: 20px;
     
-.contain{
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 199px;
-    color: darksalmon;
-}
-
-button{
-    padding: 18px;
+    }
+    button{
+        font-size: 18px;
+        padding: 20px;
+        background-color: black;
+        color: white;
         text-transform: uppercase;
-        border-radius: 10%;
-    
     }
-    
     button:hover{
-        background-color: wheat;
-    
+        background-color: grey;
+    }
+    .blur_new{
+        text-align: center;
+        padding: 40px;
+        line-height: 32px;
     
     }
-
-.row{
-    padding: 10px;
+    
+.main{
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    margin: 0;
+    font-size: 15px;
+   
     
-}
 
-.cols{
+}
+    
+
+.row{
+    width: 70%;
+     flex-direction: row; 
+    margin: 0 auto;
     font-size: 18px;
-    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+     padding: 30px;
+   
+}
+
+.col{
+    
+   margin-top: 0;
+    
+}
+.problem{
+    padding: 20px;
+    
+}
+
+
+
+
+.col + .col{
+    margin-left: 20px;
+
+}
+
+.column{
+    
+    flex-direction: row;
+    
+}
+.colun{
+    background-color: cornflowerblue;
     width: 100%;
-    padding: 8px;
-
+    text-align: center;
+    padding: 50px;
+    font-size: 17px;
 }
 
-
-    
-    .col{
-        font-size: 18px;
-        line-height: 28px;
-        width: 100%;
-        padding: 8px;
-    
-    }
-
-
-
-
-
-
-
-
-
-
+.colum{
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    font-size: 17px;
 }
 
-
-
-
-
-
-
-
-
+}
